@@ -1,0 +1,158 @@
+/* Imports */
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,700);
+
+/* typhography */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.pull-right {
+    float: right;
+    margin-right: 120px;
+}
+
+.pull-left {
+    float: left;
+    margin-left: 60px;
+}
+
+.hero {
+    margin: 20px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Colors */
+.background-gradient {
+    background: linear-gradient(#4BBFC3,#7BAABE);
+}
+
+.background-green {
+    color: #1bbc9b;
+}
+
+.background-orange {
+    color: #E52170;
+}
+
+.background-blue {
+    color: #92EE22;
+}
+
+.text-white {
+    color: #fff;
+}
+
+/* Another */
+* {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+img.iphone {
+    max-height: 625px;
+}
+
+.gutter-bottom {
+    margin-bottom: 100px;
+}
+
+/* backgrounds images */
+.background-iphone-blur {
+    background-image: url(../img/iphone-background.png);
+}
+
+.img-display {
+    display: block;
+    position: absolute;
+    top: 111px;
+    left: 41px;
+    background-image: url("../img/iphone-menu.png");
+    background-position-x: 0;
+    width: 255px;
+    height: 384px;
+    z-index: 11;
+    transition: background-position-x 0.5s ease-in-out;
+}
+
+/* Animations */
+.ease-in-out {
+    transition: all 0.4s ease-in-out;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 20px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+
+.btn.btn-lg > span {
+    display:block;
+    font-size: 28px;
+}
+
+.btn.btn-white {
+    color: #fff;
+    border-color: #fff;
+    border-width: 1px 1px 4px 1px;
+    text-align: left;
+    opacity: 1;
+}
+
+.btn.btn-white:hover {
+    background-color: rgba(255,255,255,.3);
+}
+
+/* Movable phone */
+.movable-img {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.move-up-down {
+    transition: all 0.7s ease-in-out;
+}
+
