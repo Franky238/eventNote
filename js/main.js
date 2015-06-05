@@ -8,7 +8,7 @@ $(document).ready(function() {
             $(".move-up-down").css({
                 top: (index - 1) * 100 +"%"
             }).find(".img-display").delay(550).queue(function (next) {
-                $(this).css('background-position-x', '-'+(index - 1)*256+"px");
+                $(this).css('background-position', '-'+(index - 1)*256+"px 0");
                 next();
             })
         },

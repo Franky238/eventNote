@@ -142,12 +142,11 @@ img.iphone {
     position: absolute;
     top: 111px;
     left: 41px;
-    background-image: url("../img/iphone-menu.png");
-    background-position-x: 0;
+    background: url("../img/iphone-menu.png") 0 0;
     width: 255px;
     height: 384px;
     z-index: 11;
-    transition: background-position-x 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out;
 }
 
 /* Animations */
