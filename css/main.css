@@ -93,26 +93,22 @@ p {
 }
 
 .arrow-left-down:before {
-    background-image: url(../img/arrows.png);
-    background-position-y: 0px;
+    background: url(../img/arrows.png) 0 0;
     margin-left: 125px;
 }
 
 .arrow-left-up:after {
-    background-image: url(../img/arrows.png);
-    background-position-y: -35px;
+    background: url(../img/arrows.png) 0 -35px;
     margin-left: 125px;
 }
 
 .arrow-right-down:before {
-    background-image: url(../img/arrows.png);
-    background-position-y: -70px;
+    background: url(../img/arrows.png) 0 -70px;
     margin-left: -125px;
 }
 
 .arrow-right-up:after {
-    background-image: url(../img/arrows.png);
-    background-position-y: -105px;
+    background: url(../img/arrows.png) 0 -105px;
     margin-left: -125px;
 }
 
