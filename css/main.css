@@ -16,6 +16,11 @@ h2 {
     font-weight: normal;
 }
 
+p {
+    max-width: 20%;
+    color: #fff;
+}
+
 .pull-right {
     float: right;
     margin-right: 120px;
@@ -24,6 +29,10 @@ h2 {
 .pull-left {
     float: left;
     margin-left: 60px;
+}
+
+.pulled-up {
+    margin-top: -80px;
 }
 
 .hero {
@@ -35,8 +44,20 @@ h2 {
 }
 
 /* Colors */
-.background-gradient {
+.background-gradient-1 {
     background: linear-gradient(#4BBFC3,#7BAABE);
+}
+
+.background-gradient-2 {
+    background: linear-gradient(#7BAABE,#7bbdb0);
+}
+
+.background-gradient-3 {
+    background: linear-gradient(#7bbdb0,#7d8fbd);
+}
+
+.background-gradient-4 {
+    background: linear-gradient(#7d8fbd,#7f90bd);
 }
 
 .background-green {
@@ -64,12 +85,55 @@ h2 {
     clear: both;
 }
 
+.arrow:after, .arrow:before {
+    display:block;
+    width: 200px;
+    height: 35px;
+    content: " ";
+}
+
+.arrow-left-down:before {
+    background-image: url(../img/arrows.png);
+    background-position-y: 0px;
+    margin-left: 125px;
+}
+
+.arrow-left-up:after {
+    background-image: url(../img/arrows.png);
+    background-position-y: -35px;
+    margin-left: 125px;
+}
+
+.arrow-right-down:before {
+    background-image: url(../img/arrows.png);
+    background-position-y: -70px;
+    margin-left: -125px;
+}
+
+.arrow-right-up:after {
+    background-image: url(../img/arrows.png);
+    background-position-y: -105px;
+    margin-left: -125px;
+}
+
 img.iphone {
     max-height: 625px;
 }
 
+.visible {
+    visibility: visible;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
 .gutter-bottom {
     margin-bottom: 100px;
+}
+
+.gutter-bottom-small {
+    margin-bottom: 50px;
 }
 
 /* backgrounds images */
